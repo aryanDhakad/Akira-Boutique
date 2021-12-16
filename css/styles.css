@@ -33,6 +33,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 
 }
 
@@ -51,6 +52,18 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  background-image: url("../images/black-silk.jpg");
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.mainContent h3 {
+  font-size: 3.7rem;
 }
 
 hr {
