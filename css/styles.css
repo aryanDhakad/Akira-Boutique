@@ -151,6 +151,7 @@ img {
 }
 
 
+
 .card-cs p {
   position: relative;
   margin: 4vh 0;
@@ -160,15 +161,16 @@ img {
   mix-blend-mode: difference;
 }
 
-.card-cs #circle {
+.card-cs .circle {
   height: 100%;
   width: 100%;
 
   position: absolute;
   border-radius: 50%;
-  background-color: #000000;
-  top: -30%;
-  right: -50%;
+  background-image: url("../images/black-silk.jpg");
+  top: -40%;
+  right: 10%;
+  ;
 }
 
 .card-cs .content {
