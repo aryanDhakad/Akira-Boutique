@@ -1,0 +1,27 @@
+/* .mainContent .text-muted {
+  display: inline-block;
+  transition: all 0.8s ease-in-out;
+}
+
+.mainContent:hover .text-muted {
+  transform: translateX(10%);
+} */
+
+/* .mainContent:hover{
+
+  animation: animateBg 1s linear infinite;
+  background-image: linear-gradient(90deg, #daedd9, #3ad955, #dd36cf, #daedd9, #3ad955);
+  background-size: 400% 100%;
+  border-radius: 10px;
+}
+
+
+@keyframes animateBg {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 100% 0%;
+  }
+} */
