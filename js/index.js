@@ -2,8 +2,8 @@ $('.single-item').slick({
 
     mobileFirst: true,
 
-    // autoplay: true,
-    // autoplaySpeed: 2000,
+    autoplay: true,
+    autoplaySpeed: 2000,
     dots: true,
     slidesToShow: 1,
     slidesToScroll: 1,
