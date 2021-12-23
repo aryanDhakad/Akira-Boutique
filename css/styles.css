@@ -60,7 +60,8 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-h3 {
+h3,
+.courses h1 {
   font-family: "Raleway", sans-serif;
   background-image: url("../images/black-silk.jpg");
   -webkit-background-clip: text;
@@ -111,9 +112,7 @@ img {
 }
 
 .header .nav-item:hover {
-  border-bottom: 5px solid green;
-  border-top: 5px solid blue;
-  transform: translate(-8%);
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 .header img {
@@ -124,6 +123,7 @@ img {
 
 .card-cs {
   position: relative;
+  display: inline-block;
   margin: 0.5rem;
   height: 30vh;
   width: 30vw;
@@ -145,14 +145,16 @@ img {
 }
 
 .card-cs h2 {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -10%);
+  position: relative;
+  top: 2vh;
+  left: 2vw;
+  word-break: keep-all;
 }
 
 .card-cs p {
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
   margin: 4vh 0;
   float: left;
   font-size: 18px;
@@ -173,8 +175,9 @@ img {
 
 .card-cs .content {
   /* margin: 4vh 0; */
+
   position: absolute;
-  bottom: 20%;
+  bottom: 10%;
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -215,28 +218,40 @@ section {
   margin: 2vh auto;
 }
 
-#particles-js {
+/* #particles-js {
   min-height: 40vh;
   width: 100%;
   background-color: black;
   position: relative;
-}
+} */
 
 .footer,
 .footer * {
+  /* background-color: black; */
   background: transparent;
-}
-
-.footer {
-  padding: 0 5vw;
-  height: 0;
+  color: white;
   position: relative;
-  top: 5vh;
   font-weight: bold;
+}
+.footer {
+  background-image: url("../images/black-silk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.8580474426098564) 0%
+  ); */
+  padding-top: 10vh;
+  text-align: center;
 }
 
 .footer p {
   margin: 5vh 0;
+}
+.footer .contactUs {
+  font-size: 3rem;
 }
 
 @media only screen and (max-width: 973px) {
@@ -275,7 +290,7 @@ section {
   }
 
   .footer .col-md-4 {
-    margin: 1vh 0 0 0;
-    border-bottom: 1px solid white;
+    margin: 5vh 0 0 0;
+    font-size: 1.2rem;
   }
 }
